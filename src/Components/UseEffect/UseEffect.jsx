@@ -11,7 +11,6 @@ const UseEffect = () => {
         setUrl(res.data[0].url)
         console.log("my data",res.data)
      })
-       
     
     },[count])
   return (
