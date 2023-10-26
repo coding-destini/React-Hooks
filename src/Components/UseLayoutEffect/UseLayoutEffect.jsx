@@ -13,7 +13,7 @@ const UseLayoutEffect = () => {
     },[])
   return (
     <div>
-<input type="text" ref={inputRef} value="Akash" />
+       <input type="text" ref={inputRef} value="Akash" />
     </div>
   )
 }
