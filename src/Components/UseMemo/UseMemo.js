@@ -8,7 +8,7 @@ const UseMemo = () => {
        const multiply=useMemo(function multiplication(){
         console.log("**************")
         return add*10
-       },[sub])
+       },[add])
 
     
   return (

@@ -6,6 +6,7 @@ import UseRef from './Components/UseRef/UseRef'
 import UseLayoutEffect from './Components/UseLayoutEffect/UseLayoutEffect'
 import UseContext from './Components/UseContext/UseContext'
 import UseMemo from './Components/UseMemo/UseMemo'
+import UseCallback from './Components/UseCallback/UseCallback'
 
 export default function App() {
   return (
@@ -16,7 +17,8 @@ export default function App() {
       {/* <UseRef />  */}
       {/* <UseLayoutEffect />  */}
       {/* <UseContext />  */}
-      <UseMemo />
+      {/* <UseMemo />  */}
+      <UseCallback />
     </div>
   )
 }
